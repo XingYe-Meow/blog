@@ -102,3 +102,24 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# ---------------------------------------------------------------
+# 访问量统计 (busuanzi)
+# ---------------------------------------------------------------
+busuanzi_count:
+  enable: true
+  total_visitors: true          # 显示站点总访客数 (UV)
+  total_visitors_icon: fa fa-user
+  total_views: true             # 显示站点总访问量 (PV)
+  total_views_icon: fa fa-eye
+  post_views: true              # 显示单篇文章阅读量
+  post_views_icon: fa fa-eye
+
+# ==============================================================
+# 本地搜索插件配置
+# ==============================================================
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
